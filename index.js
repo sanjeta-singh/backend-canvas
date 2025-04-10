@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
@@ -113,6 +114,10 @@ app.post("/api/chat", async (req, res) => {
 
 // Start the server
 app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
+
+
+
+
 
 
 
